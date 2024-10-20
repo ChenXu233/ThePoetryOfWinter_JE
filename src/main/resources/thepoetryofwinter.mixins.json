@@ -1,13 +1,11 @@
 {
-  "required": true,
-  "minVersion": "0.8",
-  "package": "org.decDev.thepoetryofwinter.mixin",
-  "compatibilityLevel": "JAVA_17",
-  "mixins": [
-  ],
-  "client": [
-  ],
-  "injectors": {
-    "defaultRequire": 1
-  }
+	"required": true,
+	"package": "org.decdev.thepoetryofwinter.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
 }

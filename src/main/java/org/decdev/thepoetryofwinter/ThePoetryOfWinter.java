@@ -19,6 +19,8 @@ package org.decdev.thepoetryofwinter;
 
 import net.fabricmc.api.ModInitializer;
 
+import org.decdev.thepoetryofwinter.block.ModBlocks;
+import org.decdev.thepoetryofwinter.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -35,6 +37,9 @@ public class ThePoetryOfWinter implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 		LOGGER.info("Hello Fabric world!");
 	}

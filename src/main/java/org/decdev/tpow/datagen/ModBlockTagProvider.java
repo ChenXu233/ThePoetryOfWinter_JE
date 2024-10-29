@@ -15,14 +15,21 @@
  * along with this work. If not, see <https://www.gnu.org/licenses/>.
  */
 
-package org.decdev.thepoetryofwinter;
+package org.decdev.tpow.datagen;
 
-import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.registry.RegistryWrapper;
 
-public class ThePoetryOfWinterDataGenerator implements DataGeneratorEntrypoint {
-	@Override
-	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
+import java.util.concurrent.CompletableFuture;
 
-	}
+public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
+
+    public ModBlockTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
+        super(output, registriesFuture);
+    }
+
+    @Override
+    protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+    }
 }

@@ -1,4 +1,4 @@
-package org.decdev.thepoetryofwinter.block;
+package org.decdev.tpow.block;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -7,7 +7,7 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
-import org.decdev.thepoetryofwinter.ThePoetryOfWinter;
+import org.decdev.tpow.ThePoetryOfWinter;
 
 public class ModBlocks {
 

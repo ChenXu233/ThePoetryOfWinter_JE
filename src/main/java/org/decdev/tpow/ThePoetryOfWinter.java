@@ -15,17 +15,18 @@
  * along with this work. If not, see <https://www.gnu.org/licenses/>.
  */
 
-package org.decdev.thepoetryofwinter;
+package org.decdev.tpow;
 
 import net.fabricmc.api.ModInitializer;
 
-import org.decdev.thepoetryofwinter.block.ModBlocks;
-import org.decdev.thepoetryofwinter.item.ModItems;
+import org.decdev.tpow.block.ModBlocks;
+import org.decdev.tpow.item.ModItemGroup;
+import org.decdev.tpow.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ThePoetryOfWinter implements ModInitializer {
-	public static final String MOD_ID = "thepoetryofwinter";
+	public static final String MOD_ID = "tpow";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -40,6 +41,7 @@ public class ThePoetryOfWinter implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemGroup.registerModItemGroup();
 
 		LOGGER.info("Hello Fabric world!");
 	}

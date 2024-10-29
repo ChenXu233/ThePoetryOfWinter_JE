@@ -15,14 +15,7 @@
  * along with this work. If not, see <https://www.gnu.org/licenses/>.
  */
 
-package org.decdev.thepoetryofwinter;
+package org.decdev.tpow.datagen;
 
-import net.fabricmc.api.ClientModInitializer;
-
-public class ThePoetryOfWinterClient implements ClientModInitializer {
-
-    @Override
-    public void onInitializeClient() {
-
-    }
+public class ModItemTagProvider {
 }

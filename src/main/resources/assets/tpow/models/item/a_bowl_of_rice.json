@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "thepoetryofwinter:item/aaswordman"
+    "layer0": "tpow:item/a_bowl_of_rice"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "thepoetryofwinter:block/aaswordman_block"
+    "all": "tpow:block/aaswordman_block"
   }
 }

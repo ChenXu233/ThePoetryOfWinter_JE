@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "org.decdev.thepoetryofwinter.mixin",
+	"package": "org.decdev.tpow.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"

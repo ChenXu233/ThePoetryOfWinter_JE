@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "tpow:item/everlasting_winter_ingot"
+    }
+}

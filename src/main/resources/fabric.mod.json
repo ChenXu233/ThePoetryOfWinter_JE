@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "thepoetryofwinter",
+	"id": "tpow",
 	"version": "${version}",
 	"name": "ThePoetryOfWinter",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,17 +12,17 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/thepoetryofwinter/icon.png",
+	"icon": "assets/tpow/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"org.decdev.thepoetryofwinter.ThePoetryOfWinter"
+			"org.decdev.tpow.ThePoetryOfWinter"
 		],
 		"fabric-datagen": [
-			"org.decdev.thepoetryofwinter.ThePoetryOfWinterDataGenerator"
+			"org.decdev.tpow.ThePoetryOfWinterDataGenerator"
 		],
 		"client": [
-				"org.decdev.thepoetryofwinter.ThePoetryOfWinterClient"
+				"org.decdev.tpow.ThePoetryOfWinterClient"
 		]
 	},
 	"mixins": [
